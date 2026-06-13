@@ -26,7 +26,7 @@
 >  Сам датасет не хранится в репозитории. Инструкция по его загрузке приведена ниже.
 
 ## Установка и запуск
-
+```bash
 # Клонируем репозиторий
 git clone https://github.com/sergey31-1/crop-pest-detector.git
 cd crop-pest-detector

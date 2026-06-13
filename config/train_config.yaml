@@ -1,1 +1,61 @@
+data:
+  dataset_yaml: "data/agropest.yaml"
+  
+  images_dir: "data/images"
+  
+  num_classes: 12
+  
+  class_names:
+    - "ants"
+    - "bees"
+    - "beetles"
+    - "caterpillars"
+    - "earthworms"
+    - "earwigs"
+    - "grasshoppers"
+    - "moths"
+    - "slugs"
+    - "snails"
+    - "wasps"
+    - "weevils"
 
+model:
+  name: "yolov8n"
+  
+  pretrained: true
+
+training:
+  epochs: 50
+  
+  batch_size: 16
+  
+  imgsz: 640
+  
+  lr0: 0.01
+  
+  optimizer: "Adam"
+  
+  loss: "CIoU"
+  
+  device: "cuda"
+  
+  workers: 4
+  
+  augment: true
+
+augmentation:
+  hflip: 0.5
+  
+  rotate: 15
+  
+  brightness: 0.2
+  
+  contrast: 0.2
+
+paths:
+  weights_dir: "models"
+  
+  outputs_dir: "outputs"
+  
+  # Имя лучшего файла весов
+  best_model_name: "best_model.pt"

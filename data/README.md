@@ -11,7 +11,7 @@
 ## Скачивание и подготовка
 
 1. Перейдите на страницу датасета: https://www.kaggle.com/datasets/rupankarmajumdar/crop-pests-dataset
-2. Скачайте архив `crop-pests-dataset.zip`.
+2. Скачайте архив `detection-pest.zip`.
 3. Распакуйте архив в папку `data/` этого проекта.
 4. После распаковки структура должна выглядеть так:
 data/

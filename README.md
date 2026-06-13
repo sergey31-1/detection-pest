@@ -28,7 +28,7 @@
 ## Установка и запуск
 ```bash
 # Клонируем репозиторий
-git clone https://github.com/sergey31-1/crop-pest-detector.git
+git clone https://github.com/sergey31-1/detection-pest.git
 cd crop-pest-detector
 
 # Создаём виртуальное окружение
